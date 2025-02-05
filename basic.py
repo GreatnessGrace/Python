@@ -1,4 +1,4 @@
-#1️⃣  Python Version
+# 1️⃣  Python Version
 
 # python --version
 
@@ -60,3 +60,15 @@ x = 0
 while x < 5:
     print("The value of x is:", x)
     x += 1 
+
+# 7️⃣ Functions
+
+def greet(name):
+    return "Hello, " + name + "!"
+
+print(greet("Ankush"))
+
+# 💡 Functions in Python are defined using def.
+
+
+
