@@ -85,5 +85,14 @@ p2 = Person("Grace", 24)
 print(p1.greet())
 print(p2.greet())
 
-import math
-print(math.sqrt(26))  
+# 9️⃣ File Handling
+
+# Writing to a file
+with open("test.txt", "w") as file:
+    file.write("Hello, Python!")
+
+# Reading from a file
+with open("test.txt", "r") as file:
+    content = file.read()
+    print(content)
+
