@@ -96,3 +96,8 @@ with open("test.txt", "r") as file:
     content = file.read()
     print(content)
 
+# 🔟 Modules & Libraries
+# Python has a vast number of built-in and third-party libraries. Example:
+
+import math
+print(math.sqrt(26))  
