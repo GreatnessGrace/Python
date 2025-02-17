@@ -70,5 +70,20 @@ print(greet("Ankush"))
 
 # 💡 Functions in Python are defined using def.
 
+# 8️⃣ Object-Oriented Programming (OOP)
 
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
+    def greet(self):
+        return f"Hello, my name is {self.name} and I am {self.age} years old."
+
+p1 = Person("Ankush", 24)
+p2 = Person("Grace", 24)
+print(p1.greet())
+print(p2.greet())
+
+import math
+print(math.sqrt(26))  
